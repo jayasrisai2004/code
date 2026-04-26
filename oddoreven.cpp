@@ -5,10 +5,7 @@ int main() {
     int n;
     cin >> n;
 
-    if (n % 2 == 0)
-        cout << "Even";
-    else
-        cout << "Odd";
+    cout << (n % 2 == 0 ? "Even" : "Odd") << endl;
 
     return 0;
 }
